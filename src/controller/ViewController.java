@@ -12,9 +12,8 @@ import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.VBox;
 import model.Discussion;
 import model.Message;
-import Main.Main;
+import main.Main;
 
-import javax.swing.text.View;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;

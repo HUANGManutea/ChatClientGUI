@@ -1,6 +1,6 @@
 package controller;
 
-import Main.Main;
+import main.Main;
 import javafx.application.Platform;
 import model.Message;
 

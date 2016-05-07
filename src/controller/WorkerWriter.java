@@ -1,6 +1,6 @@
 package controller;
 
-import Main.Main;
+import main.Main;
 
 import java.io.IOException;
 import java.io.PrintWriter;
