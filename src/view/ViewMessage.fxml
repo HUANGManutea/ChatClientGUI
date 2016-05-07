@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.TextFlow?>
+
+<fx:root styleClass="view-message" type="javafx.scene.layout.VBox" xmlns="http://javafx.com/javafx/null" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="viewMessageName">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <padding>
+            <Insets left="2.0" />
+         </padding></Label>
+      <TextFlow fx:id="viewMessageContent" prefHeight="30.0" prefWidth="100.0">
+         <padding>
+            <Insets left="5.0" />
+         </padding></TextFlow>
+   </children>
+   <stylesheets>
+      <URL value="@view-message.css" />
+   </stylesheets>
+</fx:root>
